@@ -14,3 +14,4 @@ yarn.lock
 vite.config.ts
 tsconfig.json
 tsconfig.node.json
+sonar-project.properties
