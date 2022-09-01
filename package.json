@@ -13,11 +13,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xqsit94/vue3-copy-to-clipboard.git"
+    "url": "https://github.com/xqsit94/vue3-copy-to-clipboard.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
   },
   "keywords": [
     "vue",
@@ -45,6 +56,7 @@
     "prettier": "^2.5.1",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
-    "vue-tsc": "^0.39.5"
+    "vue-tsc": "^0.39.5",
+    "semantic-release": "^19.0.5"
   }
 }
