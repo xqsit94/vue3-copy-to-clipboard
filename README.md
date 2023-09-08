@@ -1,6 +1,5 @@
 <div align="center">
     <h1>Vue 3 Copy To Clipboard</h1>
-    <a href="https://sonarcloud.io/summary/new_code?id=xqsit94_vue3-copy-to-clipboard"><img src="https://sonarcloud.io/api/project_badges/measure?project=xqsit94_vue3-copy-to-clipboard&metric=alert_status" alt="Quality Gate"></a>
     <a href="https://github.com/xqsit94/vue3-copy-to-clipboard/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/xqsit94/gridsome-starter-geek-blog?color=green&logo=github"></a>
     <a href="https://github.com/xqsit94/vue3-copy-to-clipboard/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
 </div>
