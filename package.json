@@ -1,7 +1,7 @@
 {
   "name": "@xqsit94/vue3-copy-to-clipboard",
   "description": "Copy to clipboard component for Vue 3",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./dist/vue3-copy-to-clipboard.umd.js",
   "module": "./dist/vue3-copy-to-clipboard.mjs",
   "exports": {
@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint ./src --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "repository": {
     "type": "git",
